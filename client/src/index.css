@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+/* <!-- Backend Note -->
+<!-- what is backend??
+  this refers to the part of a website/app that operates on the server side,behind the scenes. -->
+
+<!-- its responsible for managing and processing the data, handling business logic,and performing tasks thet the frontend cannot handle directly -->
+
+<!-- Frontend (client side) -->
+<!-- Back-end (Server side) -->
+
+<!-- REQUEST -->
+
+<!-- 1.GET request : used to  get information about a certain website -->
+<!-- 2. POST REQUEST: used to send information to the developer -->
+<!-- 3. PUT request: very similar to editing a post request -->
+<!-- 4. PATCH request : its used to patch -->
+<!-- 5.DELETE request :  -->
+
+<!-- RESPONSE -->
+
+<!-- GOOD RESPONSE:  -->
+<!-- BAD RESPONSE -->
+<!-- WARNING STATUS CODE: -->
+<!-- BAD STATUS CODE: -->
+
+<!-- WHAT DOES THE BACKEND INVOLVE? -->
+<!-- 1. SERVER: The backend runs on a server,which ia a computer or a cluster of computers or a super computer that host/houses the website or application. -->
+
+<!-- 2. DATABASE: The backend interacts with database to store and get data. This includes user information,contents and othr data necessary for the websites functionally. e.g PostGret, MySQL, MongoDB, SQLite -->
+
+<!-- 3.Server side programming languages: The backend languages and frameworks are used to create the logic that drives the website. Language (NODE.js {TypeScript}) framework(EXPRESS.JS) -->
+
+<!-- 4. APIs (APPLICATION PROGRAMMING INTERFACE) -->
+<!-- 5. BUSINESS LOGIC: This handles the core logic of the application,such as processing transactions,managing user accounts and errors handling/enforcing rules -->
+
+<!-- 6. AUTHENTICATION & AUTHORIZATION : the backend manages user authentication (verifying identity )  and authourization (granting access to resources based on permission)-->
+
+<!-- SECURITY : the bacend implements security measures to protect data and ensuress that the applicatin is safe from vulnerabilities -->
+
+<!--  BACKEND STRUCTURE-->
+<!-- 1.The first command will bring (package.json) -->
+<!-- 2.Create a main father file app.ts or server.ts or index.ts .... this file is where we host our website using a PORT (its an addresss that must be four digits and should be different from other websites server PORT) -->
+<!-- 3. Install the frame work which is express and import express into the father file  -->
+<!-- 4. you connect to the database and make teh server is running (npm run dev) -->
+
+<!-- PHASE 2 -->
+<!--1. First folder to create is called the model folder and it is used to define the structure of your API going to the database -->
+
+<!-- 2. CONTROLLER : second folder to create,and this is where the business logic happens meaning what happens between request and RESPONSE -->
+
+<!-- 3. THIRD FOLDER TO CREATE IS CALLED THE ROUTE FOLDER and its used to define the endpoint.... -->
+
+<!-- AFTER COMPLETING THE CYCLE,EVERYTHING GOES BACK TO THE FATHER FILE. -->
+
+<!-- OTHER MOST LIKELY FOLDERS WE MIGHT CREATE ,
+ 1. MIDDLEWARE
+ 2. UTILS
+ 3. CONFIG
+ 4. SERVICES
+ 5. TESTTTT-->
+<!--
+
+npm init -y to install package.json
+create an src folder in the server,then a file.ts
+install express from express npm
+npm install -D typescript tsx @types/express @types/node
+the in package.json in scripts add "dev": "tsx watch src/file.ts
+add import express from "express" to your file.ts
+start the server using the name of the parent file using
+const app = express();
+port numbers is giving an address to your running erver
+make sure your server is running then use a connector called mongoose
+
+schema is a key in the object of mongoose-->
+*/
